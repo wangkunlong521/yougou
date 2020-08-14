@@ -1,0 +1,51 @@
+view{
+  /* 使用全局wxss定义的主题颜色 */
+  color: var(--themeColor)
+}
+swiper{
+  width:750rpx;
+  height:340rpx;
+}
+swiper image{
+  width:100%;
+}
+.index_cate{
+  display:flex;
+}
+.index_cate navigator{
+  flex:1;
+  padding:20rpx;
+}
+.index_cate navigator image{
+  width:100%;
+}
+
+
+.floor_group{
+  padding:10rpx 0;
+}
+.index_floor .floor_title image{
+  width:100%;
+}
+.floor_list{
+  overflow: hidden;
+}
+.index_floor .floor_list navigator{
+  float:left;
+  width:33.33%;
+}
+.index_floor .floor_list navigator image{
+  width:100%;
+  height: 100%;
+}
+.index_floor .floor_list:nth-child(n+2) image{
+  /* 第一张图片的大小：232*386
+    232 / 386 = 33.33vw / height
+    后面的图片大小就等于
+  */
+  height: calc(33.33vw * 375 / 232 / 2);
+  border-left:10rpx solid #fff;
+}
+.index_floor .floor_list:nth-child(2) image,.index_floor .floor_list:nth-child(3) image{
+  border-bottom: 10rpx solid #fff;
+}

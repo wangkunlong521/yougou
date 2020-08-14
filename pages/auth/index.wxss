@@ -1,0 +1,6 @@
+button{
+  width:70%;
+}
+view{
+  padding-top: 40rpx;
+}

@@ -1,0 +1,35 @@
+page{
+  background: #dedede;
+  padding:20rpx;
+}
+.search_row{
+  height:60rpx;
+  display: flex;
+  justify-content: space-between;
+}
+input{
+  flex:1;
+  height:100%;
+  background: #fff;
+  padding-left: 30rpx;
+}
+button{
+  width:150rpx !important;
+  font-size: 25rpx !important;
+  margin:0 15rpx !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_content{
+  margin-top:20rpx !important;
+}
+.search_item{
+  background: #fff;
+  border-bottom: 1rpx solid #ccc;
+  padding:10rpx 5rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

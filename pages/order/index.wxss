@@ -1,0 +1,16 @@
+.order_no_row, .order_price_row, .order_time_row{
+  display: flex;
+  justify-content: space-between;
+}
+.order_price_row{
+  padding:10rpx 0;
+}
+.order_item{
+  border-bottom: 1rpx solid #ccc;
+  padding: 20rpx;
+  color:#666;
+  font-size: 32rpx;
+}
+.order_price_value{
+  color:var(--themeColor);
+}

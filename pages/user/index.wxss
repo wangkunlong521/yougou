@@ -1,0 +1,119 @@
+page{
+  background: #edece8;
+}
+.user_info_wrap{
+  height:45vh;
+  background: var(--themeColor);
+  position: relative;
+}
+.user_bg{
+  height:50vh;
+  width:100vw;
+  /* 高斯模糊 */
+  filter:blur(10rpx);
+}
+.user_img_wrap{
+  position: relative;
+}
+.user_info{
+  position: absolute;
+  left:50%;
+  transform: translate(-50%);
+  top:20%;
+  text-align: center;
+}
+.user_icon{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_name{
+  color:white;
+  font-size: 32rpx;
+  margin-top: 40rpx;
+}
+.user_btn{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  top:40%;
+  border:1rpx solid greenyellow;
+  color:greenyellow;
+  font-size: 38rpx;
+  padding: 30rpx;
+  border-radius: 10rpx;
+}
+
+.user_content{
+  position: relative;
+}
+.user_main{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  top:-40rpx;
+  width:90%;
+  color:#666;
+  padding-bottom: 50rpx;
+}
+.history_wrap{
+  background: white;
+  display: flex;
+  padding: 10rpx 0;
+}
+navigator{
+  flex:1;
+  text-align: center;
+}
+.his_num{
+  color:var(--themeColor);
+
+}
+
+.orders_wrap{
+  background: #fff;
+  margin-top: 20rpx;
+}
+.orders_title{
+  padding:20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.orders_content{
+  display: flex;
+  padding:15rpx 0;
+}
+navigator{
+  flex:1;
+  text-align: center;
+}
+.iconfont{
+  color:var(--themeColor);
+  font-size: 40rpx;
+}
+.address_wrap{
+  background: #fff;
+  padding: 20rpx;
+  margin-top: 20rpx;
+}
+
+.app_info_wrap{
+  margin-top: 20rpx;
+}
+.app_info_item{
+  padding: 20rpx;
+  background: #fff;
+  border-bottom: 1rpx solid #ccc;
+  text-align: left;
+}
+.recommend_wrap{
+  padding: 20rpx;
+  background: #fff;
+  margin-top: 20rpx;
+}
+.app_info_item:nth-child(1){
+  display: flex;
+  justify-content: space-between;
+}
+.app_info_item:nth-child(3){
+  border:none;
+}
